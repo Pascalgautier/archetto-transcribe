@@ -1,0 +1,5 @@
+archetto-transcribe
+Copyright 2026 Pascal Gautier and contributors.
+
+Uses (not bundled): Basic Pitch (Spotify, Apache-2.0), torchcrepe (MIT), librosa (ISC), Demucs (MIT),
+MT3 (Magenta, Apache-2.0; checkpoints downloaded separately), mir_eval (MIT), music21 (BSD-3-Clause).

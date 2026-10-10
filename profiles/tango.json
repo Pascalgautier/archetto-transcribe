@@ -1,0 +1,55 @@
+{
+ "style": "tango",
+ "parametres": {
+  "attaque_flux": 3.0,
+  "attaque_niveau": 2.5,
+  "fenetre_double_attaque": 0.2,
+  "penalite_simplicite": 1.0,
+  "motif_min": 3,
+  "motif_tolerance": 0.5
+ },
+ "sessions": [
+  {
+   "date": "2026-10-09 17:11",
+   "empreinte": "56339bf6d1e23e3b",
+   "original": "exemple_tango_elevenlabs/violin_part.musicxml",
+   "corrige": "exemple_tango_elevenlabs/edition/partition_modifiee.musicxml",
+   "corrections": {
+    "identique": 57,
+    "rythme": 1
+   },
+   "symboles_ajoutes": {
+    "dyn:mf": 1,
+    "down-bow": 1,
+    "up-bow": 1,
+    "fingering=1": 1,
+    "wedge:crescendo": 1,
+    "fermata": 1,
+    "dyn:p": 1,
+    "string=2": 1
+   },
+   "ajustements": []
+  }
+ ],
+ "cumul": {
+  "identique": 57,
+  "rythme": 1
+ },
+ "symboles": {
+  "dyn:mf": 1,
+  "down-bow": 1,
+  "up-bow": 1,
+  "fingering=1": 1,
+  "wedge:crescendo": 1,
+  "fermata": 1,
+  "dyn:p": 1,
+  "string=2": 1
+ },
+ "suggestions": {},
+ "habitudes": [
+  "coups d'archet notés au début des phrases",
+  "motif récurrent 3 + 0.5 + 0.5 temps (liaison sur les notes brèves)",
+  "nuances d'entrée ajoutées : mf, p",
+  "point d'orgue ajouté (mesure 28, fin du morceau)"
+ ]
+}

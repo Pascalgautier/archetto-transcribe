@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "archetto-transcribe"
+version = "0.1.0.dev0"
+description = "Violin-oriented music transcription: separation, f0/onset engines, held-note merging, motifs, style priors, voice roles, learning from corrections"
+readme = "README.md"
+license = {text = "Apache-2.0"}
+requires-python = ">=3.10"
+dependencies = ["numpy", "scipy", "librosa>=0.10", "soundfile", "music21", "mir_eval", "matplotlib"]
+
+[project.optional-dependencies]
+basicpitch = ["basic-pitch"]
+crepe = ["torch", "torchcrepe"]
+separation = ["demucs"]
+all = ["basic-pitch", "torch", "torchcrepe", "demucs"]
+
+[project.scripts]
+archetto-transcribe = "archetto_transcribe.pipeline:main"
+
+[tool.setuptools]
+packages = ["archetto_transcribe"]

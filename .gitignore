@@ -1,0 +1,6 @@
+benchmark/data/*/audio.wav
+__pycache__/
+*.pyc
+mt3/.v/
+mt3/src/
+mt3/ckpt/

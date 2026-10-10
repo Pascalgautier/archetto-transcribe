@@ -1,0 +1,202 @@
+{
+ "tango1_violon_I/basicpitch": {
+  "onset_F1": 0.821,
+  "onset_offset_F1": 0.344,
+  "note_F1_no_offset": 0.821,
+  "pitch_acc": 1.0,
+  "fragmentation": 0.194,
+  "n_est": 89,
+  "n_ref": 62,
+  "seconds": 5.7
+ },
+ "tango1_violon_I/crepe": {
+  "onset_F1": 1.0,
+  "onset_offset_F1": 0.984,
+  "note_F1_no_offset": 1.0,
+  "pitch_acc": 1.0,
+  "fragmentation": 0.0,
+  "n_est": 62,
+  "n_ref": 62,
+  "seconds": 50.9
+ },
+ "tango1_violon_I/pyin": {
+  "onset_F1": 0.984,
+  "onset_offset_F1": 0.952,
+  "note_F1_no_offset": 0.984,
+  "pitch_acc": 1.0,
+  "fragmentation": 0.0,
+  "n_est": 64,
+  "n_ref": 62,
+  "seconds": 14.5
+ },
+ "tango1_violon_I/mt3": {
+  "onset_F1": 0.976,
+  "onset_offset_F1": 0.646,
+  "note_F1_no_offset": 0.945,
+  "pitch_acc": 0.968,
+  "fragmentation": 0.081,
+  "n_est": 65,
+  "n_ref": 62,
+  "seconds": 26.7
+ },
+ "vds_violon_I/basicpitch": {
+  "onset_F1": 0.798,
+  "onset_offset_F1": 0.218,
+  "note_F1_no_offset": 0.798,
+  "pitch_acc": 1.0,
+  "fragmentation": 0.071,
+  "n_est": 334,
+  "n_ref": 225,
+  "seconds": 2.7
+ },
+ "vds_violon_I/crepe": {
+  "onset_F1": 0.978,
+  "onset_offset_F1": 0.671,
+  "note_F1_no_offset": 0.978,
+  "pitch_acc": 1.0,
+  "fragmentation": 0.022,
+  "n_est": 225,
+  "n_ref": 225,
+  "seconds": 134.7
+ },
+ "vds_violon_I/pyin": {
+  "onset_F1": 0.944,
+  "onset_offset_F1": 0.655,
+  "note_F1_no_offset": 0.944,
+  "pitch_acc": 1.0,
+  "fragmentation": 0.022,
+  "n_est": 239,
+  "n_ref": 225,
+  "seconds": 44.0
+ },
+ "vds_violon_I/mt3": {
+  "onset_F1": 0.911,
+  "onset_offset_F1": 0.741,
+  "note_F1_no_offset": 0.842,
+  "pitch_acc": 0.925,
+  "fragmentation": 0.018,
+  "n_est": 212,
+  "n_ref": 225,
+  "seconds": 37.4
+ },
+ "vds_violon_II/basicpitch": {
+  "onset_F1": 0.826,
+  "onset_offset_F1": 0.602,
+  "note_F1_no_offset": 0.826,
+  "pitch_acc": 1.0,
+  "fragmentation": 0.002,
+  "n_est": 541,
+  "n_ref": 466,
+  "seconds": 2.4
+ },
+ "vds_violon_II/crepe": {
+  "onset_F1": 0.999,
+  "onset_offset_F1": 0.986,
+  "note_F1_no_offset": 0.997,
+  "pitch_acc": 0.998,
+  "fragmentation": 0.002,
+  "n_est": 467,
+  "n_ref": 466,
+  "seconds": 137.0
+ },
+ "vds_violon_II/pyin": {
+  "onset_F1": 0.964,
+  "onset_offset_F1": 0.954,
+  "note_F1_no_offset": 0.962,
+  "pitch_acc": 0.998,
+  "fragmentation": 0.011,
+  "n_est": 490,
+  "n_ref": 466,
+  "seconds": 46.7
+ },
+ "vds_violon_II/mt3": {
+  "onset_F1": 0.844,
+  "onset_offset_F1": 0.7,
+  "note_F1_no_offset": 0.737,
+  "pitch_acc": 0.86,
+  "fragmentation": 0.009,
+  "n_est": 468,
+  "n_ref": 466,
+  "seconds": 57.3
+ },
+ "vds_violon_III/basicpitch": {
+  "onset_F1": 0.772,
+  "onset_offset_F1": 0.0,
+  "note_F1_no_offset": 0.772,
+  "pitch_acc": 1.0,
+  "fragmentation": 0.0,
+  "n_est": 358,
+  "n_ref": 225,
+  "seconds": 2.6
+ },
+ "vds_violon_III/crepe": {
+  "onset_F1": 1.0,
+  "onset_offset_F1": 0.004,
+  "note_F1_no_offset": 1.0,
+  "pitch_acc": 1.0,
+  "fragmentation": 0.0,
+  "n_est": 225,
+  "n_ref": 225,
+  "seconds": 142.9
+ },
+ "vds_violon_III/pyin": {
+  "onset_F1": 0.949,
+  "onset_offset_F1": 0.004,
+  "note_F1_no_offset": 0.949,
+  "pitch_acc": 1.0,
+  "fragmentation": 0.004,
+  "n_est": 247,
+  "n_ref": 225,
+  "seconds": 45.1
+ },
+ "vds_violon_III/mt3": {
+  "onset_F1": 0.923,
+  "onset_offset_F1": 0.915,
+  "note_F1_no_offset": 0.923,
+  "pitch_acc": 1.0,
+  "fragmentation": 0.0,
+  "n_est": 258,
+  "n_ref": 225,
+  "seconds": 39.5
+ },
+ "tango1_violon_I/ours": {
+  "onset_F1": 1.0,
+  "onset_offset_F1": 1.0,
+  "note_F1_no_offset": 1.0,
+  "pitch_acc": 1.0,
+  "fragmentation": 0.0,
+  "n_est": 62,
+  "n_ref": 62,
+  "seconds": 53.5
+ },
+ "vds_violon_I/ours": {
+  "onset_F1": 0.978,
+  "onset_offset_F1": 0.924,
+  "note_F1_no_offset": 0.973,
+  "pitch_acc": 0.995,
+  "fragmentation": 0.022,
+  "n_est": 225,
+  "n_ref": 225,
+  "seconds": 159.0
+ },
+ "vds_violon_II/ours": {
+  "onset_F1": 0.999,
+  "onset_offset_F1": 0.992,
+  "note_F1_no_offset": 0.997,
+  "pitch_acc": 0.998,
+  "fragmentation": 0.002,
+  "n_est": 467,
+  "n_ref": 466,
+  "seconds": 145.5
+ },
+ "vds_violon_III/ours": {
+  "onset_F1": 1.0,
+  "onset_offset_F1": 0.942,
+  "note_F1_no_offset": 1.0,
+  "pitch_acc": 1.0,
+  "fragmentation": 0.0,
+  "n_est": 225,
+  "n_ref": 225,
+  "seconds": 138.4
+ }
+}
