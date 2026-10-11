@@ -3,7 +3,7 @@
 **Violin-oriented music transcription engine** extracted from [Archetto](https://archetto-mocha.vercel.app), Pascal Gautier's
 practice platform: isolate an instrument from a mix, transcribe it for violin, practise with the backing track.
 
-> Status: **0.1.0.dev0, local draft — not published yet.** The code is the Archetto pipeline (`archetto_transcribe/pipeline.py`)
+> Status: **0.1.0.dev0, early public release.** The code is the Archetto pipeline (`archetto_transcribe/pipeline.py`)
 > vendored as-is with a small engine API on top; it will be split into modules before a public release.
 
 ## What it does

@@ -37,7 +37,7 @@ Images côte à côte (mesures 8–24) : `cote_a_cote_<piste>_m8-24.png`.
   Moins bon sur la piste « lead » où plusieurs violons jouent ensemble (il ne suit qu'une voix). Lent sur CPU (≈ 2,5 min pour 3 min d'audio).
   Note : le décodeur viterbi de torchcrepe donnait une périodicité nulle sur ces pistes ; décodeur weighted_argmax utilisé.
 - **pYIN** (librosa) : proche de CREPE, un peu moins précis sur les fins, plus rapide (≈ 45 s), un peu plus de fausses notes courtes.
-- **MT3** (Magenta, point de contrôle « mt3 », JAX CPU, environnement séparé `/workspace/mt3try`) : installable et utilisable (30–150 s par piste),
+- **MT3** (Magenta, point de contrôle « mt3 », JAX CPU, environnement séparé) : installable et utilisable (30–150 s par piste),
   mais décevant ici : il répartit le violon sur plusieurs « instruments », invente beaucoup de notes sur les pistes à plusieurs violons et en rate
   beaucoup sur Violon II/III ; ses attaques semblent décalées d'environ 60 ms (avec un décalage constant compensé, la précision du premier tango
   passerait de 0,29 à ≈ 0,55, toujours sous CREPE). Pas retenu.
