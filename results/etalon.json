@@ -1,0 +1,102 @@
+{
+ "etalon_libertango_violon/basicpitch": {
+  "onset_F1": 0.446,
+  "onset_offset_F1": 0.106,
+  "note_F1_no_offset": 0.305,
+  "pitch_acc": 0.465,
+  "fragmentation": 1.566,
+  "n_est": 1620,
+  "n_ref": 880,
+  "seconds": 7.4
+ },
+ "etalon_libertango_violon/crepe": {
+  "onset_F1": 0.426,
+  "onset_offset_F1": 0.053,
+  "note_F1_no_offset": 0.136,
+  "pitch_acc": 0.288,
+  "fragmentation": 0.87,
+  "n_est": 880,
+  "n_ref": 880,
+  "seconds": 166.3
+ },
+ "etalon_libertango_violon/pyin": {
+  "onset_F1": 0.427,
+  "onset_offset_F1": 0.067,
+  "note_F1_no_offset": 0.129,
+  "pitch_acc": 0.272,
+  "fragmentation": 0.805,
+  "n_est": 858,
+  "n_ref": 880,
+  "seconds": 54.0
+ },
+ "etalon_libertango_violon/mt3": {
+  "onset_F1": 0.314,
+  "onset_offset_F1": 0.037,
+  "note_F1_no_offset": 0.194,
+  "pitch_acc": 0.429,
+  "fragmentation": 2.092,
+  "n_est": 2020,
+  "n_ref": 880,
+  "seconds": 111.1
+ },
+ "etalon_libertango_violon/ours": {
+  "onset_F1": 0.427,
+  "onset_offset_F1": 0.057,
+  "note_F1_no_offset": 0.134,
+  "pitch_acc": 0.284,
+  "fragmentation": 0.852,
+  "n_est": 867,
+  "n_ref": 880,
+  "seconds": 1.1
+ },
+ "etalon_libertango_violon_demucs/basicpitch": {
+  "onset_F1": 0.446,
+  "onset_offset_F1": 0.108,
+  "note_F1_no_offset": 0.307,
+  "pitch_acc": 0.465,
+  "fragmentation": 1.586,
+  "n_est": 1634,
+  "n_ref": 880,
+  "seconds": 11.8
+ },
+ "etalon_libertango_violon_demucs/crepe": {
+  "onset_F1": 0.41,
+  "onset_offset_F1": 0.052,
+  "note_F1_no_offset": 0.136,
+  "pitch_acc": 0.298,
+  "fragmentation": 0.9,
+  "n_est": 887,
+  "n_ref": 880,
+  "seconds": 180.2
+ },
+ "etalon_libertango_violon_demucs/pyin": {
+  "onset_F1": 0.431,
+  "onset_offset_F1": 0.064,
+  "note_F1_no_offset": 0.13,
+  "pitch_acc": 0.277,
+  "fragmentation": 0.835,
+  "n_est": 879,
+  "n_ref": 880,
+  "seconds": 53.7
+ },
+ "etalon_libertango_violon_demucs/mt3": {
+  "onset_F1": 0.314,
+  "onset_offset_F1": 0.042,
+  "note_F1_no_offset": 0.192,
+  "pitch_acc": 0.42,
+  "fragmentation": 2.082,
+  "n_est": 2017,
+  "n_ref": 880,
+  "seconds": 100.5
+ },
+ "etalon_libertango_violon_demucs/ours": {
+  "onset_F1": 0.41,
+  "onset_offset_F1": 0.056,
+  "note_F1_no_offset": 0.136,
+  "pitch_acc": 0.301,
+  "fragmentation": 0.882,
+  "n_est": 873,
+  "n_ref": 880,
+  "seconds": 1.0
+ }
+}

@@ -57,6 +57,31 @@ Current leaderboard (synthetic violin, 4 lines, 978 notes; mean over datasets):
 
 **Caveats (read before quoting):** the ground truth is synthetic (clean additive violin, no backing, no separation artefacts) and was rendered from scores our own pipeline produced; `ours` offset threshold (10 dB drop) was tuned on this same set, so its offset score is optimistic. On real separated stems the ranking of onset accuracy is different (see real-audio report). A human-corrected real-audio set is the next step.
 
+### Real recording with a verified score: the "Étalon" (new)
+
+`python benchmark/etalon.py` — Libertango (Piazzolla, arr. Maki Kubota), **violin part** of a violin–cello duo recording,
+880 notes (bars 6–127; the free Lento intro is excluded). Ground truth = Audiveris OMR of the printed part, corrected by hand
+against the PDF, then aligned to the recording (chroma DTW + tempo-map smoothing + snapping to audio onsets within 70 ms).
+Input to the engines: Demucs `htdemucs_6s` (other + guitar stems), high-passed at 185 Hz. Demucs cannot separate violin from
+cello, so the cello is still in the input: this is a hard, realistic test.
+
+| rank | engine | note onset F1 | onset+offset F1 | note F1 (no offset) | pitch acc. | fragmentation ↓ | est/ref |
+|---|---|---|---|---|---|---|---|
+| 1 | basicpitch | 0.446 | 0.108 | 0.307 | 0.465 | 1.586 | 1634/880 |
+| 2 | mt3 | 0.314 | 0.042 | 0.192 | 0.420 | 2.082 | 2017/880 |
+| 3 | ours | 0.410 | 0.056 | 0.136 | 0.301 | 0.882 | 873/880 |
+| 4 | crepe | 0.410 | 0.052 | 0.136 | 0.298 | 0.900 | 887/880 |
+| 5 | pyin | 0.431 | 0.064 | 0.130 | 0.277 | 0.835 | 879/880 |
+
+![étalon](results/etalon.png) · full table (also on the unseparated, high-passed mix): [`results/etalon.md`](results/etalon.md)
+
+Read with care: (1) on real audio with a second string instrument, every engine collapses compared with the synthetic set;
+the monophonic f0 engines (CREPE, pYIN, ours) often follow the cello, Basic Pitch (polyphonic) keeps more violin notes but
+invents many; (2) the alignment is automatic and not yet checked by ear, so onset/offset metrics carry some alignment error;
+(3) a few bars of the score are still marked as doubtful (8va passages, harmonics, some double stops).
+**Copyright:** the composition (Piazzolla, †1992) and the arrangement are protected and the recording is a third-party
+YouTube video, so neither the audio nor the aligned notes are published here — only the method, script and metrics.
+
 Real-audio comparison (no exact ground truth; attacks vs detected audio onsets, same post-processing): [`results/real_audio.md`](results/real_audio.md).
 
 ## License

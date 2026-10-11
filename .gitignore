@@ -4,3 +4,5 @@ __pycache__/
 mt3/.v/
 mt3/src/
 mt3/ckpt/
+benchmark/data_real/*/audio.wav
+benchmark/data_real/*/notes.csv
